@@ -1,0 +1,45 @@
+
+/*Set up the fonts, base spacing, and background color*/
+body {
+    font-size: 16px;
+    font-family: UbuntuMono, Arial, Helvetica, sans-serif;
+    font-style: normal;
+    color:aliceblue;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(36, 43, 76);
+    
+}
+
+/*Sets up the top bar*/
+header {
+    position: fixed;
+    z-index: 5;
+    top: 0px;
+    height: 4 em;
+    width:100%;
+    margin-top: 0;
+    margin-bottom: 10em;
+    text-align: left;
+    font-weight: bold;
+    background-color: rgb(41, 1, 19)
+}
+a {
+    color: aqua;
+
+}
+/*Sets up the top bar options links*/
+.header-options a{
+    color:rgb(109, 102, 143);
+    text-emphasis-style: bold;
+    text-decoration: none;
+}
+
+.a:hover {
+    color:aliceblue;
+}
+
+/* Adds a dropdown feature*/
+.dropdown {
+    display: inline-block;
+}
